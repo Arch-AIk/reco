@@ -320,6 +320,13 @@ public class Manager.DeviceManager : Object {
     // Inspired from ``get_launch_line()`` in GStreamer:
     // https://gitlab.freedesktop.org/gstreamer/gstreamer/-/blob/1.20.6/subprojects/gst-plugins-base/tools/gst-device-monitor.c#L45-135
     private static string? build_monitor_name (Gst.Device sink) {
+        // PipeWire exposes its object serial as the sink element's target-object,
+        // but the PulseAudio monitor source is named after the PipeWire node.
+        string? node_name = sink.properties.get_string ("node.name");
+        if (node_name != null && node_name.length > 0) {
+            return node_name + ".monitor";
+        }
+
         Gst.Element? element = sink.create_element (null);
         if (element == null) {
             warning ("failed to Gst.Device.create_element()");
