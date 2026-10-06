@@ -254,6 +254,10 @@ public class View.WelcomeView : AbstractView {
         device_manager.device_updated.connect (() => {
             record_button.sensitive = get_is_source_connected ();
         });
+
+        // The device monitor may already have discovered devices before this view
+        // connects to device_updated. Initialize the button from the current state.
+        record_button.sensitive = get_is_source_connected ();
     }
 
     private async void toggle_autosave () {
