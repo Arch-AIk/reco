@@ -297,10 +297,11 @@ public class Manager.DeviceManager : Object {
                 // Clear the default device only when it's surely the removed device
                 // to prevent the new default device from being cleared if it's already set to
                 // default_monitor through add_device()
-                if (default_monitor == device.name) {
+                string? removed_monitor = build_monitor_name (device);
+                if (removed_monitor != null && default_monitor == removed_monitor) {
                     default_monitor = null;
 
-                    debug ("[sink] remove: removed device \"%s\"", device.name);
+                    debug ("[sink] remove: removed device \"%s\"", removed_monitor);
                 }
             }
 
