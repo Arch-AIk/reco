@@ -1,14 +1,14 @@
 # Chinese (Simplified) translations for com.github.ryonakano.reco.
 # Copyright (C) 2018-2026 Ryo Nakano
 # This file is distributed under the same license as the com.github.ryonakano.reco package.
-# Fill read-only add-on <noreply-addon-fill@weblate.org>, 2024.
+# Bli-AIk, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.ryonakano.reco\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-23 12:12+0900\n"
-"PO-Revision-Date: 2024-05-03 10:45+0000\n"
-"Last-Translator: Fill read-only add-on <noreply-addon-fill@weblate.org>\n"
+"PO-Revision-Date: 2026-10-06 21:35+0800\n"
+"Last-Translator: Bli-AIk\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "rosp/reco/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -16,113 +16,107 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.3\n"
+"X-Generator: Manual translation\n"
 
 #: data/reco.desktop.in.in:2
 msgid "@APP_NAME@"
 msgstr "@APP_NAME@"
 
 #: data/reco.desktop.in.in:3
-#, fuzzy
 msgid "Audio Recording App"
-msgstr "录音"
+msgstr "音频录音应用"
 
 #: data/reco.desktop.in.in:4 data/reco.metainfo.xml.in.in:11
-#, fuzzy
 msgid "Focus on recording"
-msgstr "暂停录音"
+msgstr "专注于录音"
 
 #: data/reco.desktop.in.in:10
 msgid "Record;Audio;Sound;Voice;"
-msgstr ""
+msgstr "录音;音频;声音;语音;"
 
 #: data/reco.metainfo.xml.in.in:13
 msgid "An audio recorder focused on being concise and simple to use."
-msgstr ""
+msgstr "一款简洁易用的录音工具。"
 
 #: data/reco.metainfo.xml.in.in:16
 msgid ""
 "You can use it to record and remember spoken words, system audio, improvized "
 "melodies, and anything else you can do with a microphone, speaker, or both."
-msgstr ""
+msgstr "你可以用它录下并留存语音、系统声音、即兴旋律，以及麦克风、扬声器或两者能够录制的其他声音。"
 
 #: data/reco.metainfo.xml.in.in:17
 msgid "Features include:"
-msgstr ""
+msgstr "功能包括："
 
 #: data/reco.metainfo.xml.in.in:19
 msgid ""
 "Recording sounds from both your microphone and system at the same time. This "
 "is useful for recording calls or streaming videos on the Internet."
-msgstr ""
+msgstr "可同时录制麦克风和系统声音，适合录制通话或网络视频。"
 
 #: data/reco.metainfo.xml.in.in:20
 msgid ""
 "Saving in many commonly used formats. It supports ALAC, FLAC, MP3, Ogg "
 "Vorbis, Opus, and WAV."
-msgstr ""
+msgstr "支持多种常用格式，包括 ALAC、FLAC、MP3、Ogg Vorbis、Opus 和 WAV。"
 
 #: data/reco.metainfo.xml.in.in:21
 msgid ""
 "Timed recording. You can set a delay before recording up to 15 seconds, and "
 "set the length of recording up to 600 seconds."
-msgstr ""
+msgstr "定时录音。可设置最长 15 秒的录音前延迟，并将录音时长设为最长 600 秒。"
 
 #: data/reco.metainfo.xml.in.in:22
 msgid ""
 "Adding metadata automatically. Reco can add artist and year metadata to "
 "recording files."
-msgstr ""
+msgstr "自动添加元数据。Reco 可为录音文件添加艺术家和年份信息。"
 
 #: data/reco.metainfo.xml.in.in:23
 msgid ""
 "Choosing where to save recordings. You can select whether the app saves "
 "recordings into a directory of your choosing automatically or manually."
-msgstr ""
+msgstr "选择录音保存位置。你可以让应用自动将录音保存到指定目录，也可以在每次录音后手动选择位置。"
 
 #: data/reco.metainfo.xml.in.in:24
 msgid ""
 "Saving recordings when the app quits. Even if you happen to quit the app "
 "while recording, the recording is either saved automatically, or the file "
 "chooser dialog is shown - depending on your preferences."
-msgstr ""
+msgstr "退出应用时保存录音。即使在录音过程中退出，应用也会根据你的偏好自动保存录音，或显示文件选择对话框。"
 
 #: data/reco.metainfo.xml.in.in:30
 msgid "Welcome view; perform recording configuration"
-msgstr ""
+msgstr "欢迎界面；设置录音选项"
 
 #: data/reco.metainfo.xml.in.in:35
-#, fuzzy
 msgid "Recording view"
-msgstr "录音"
+msgstr "录音界面"
 
 #: data/ui/shortcuts-dialog.blp:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "常规"
 
 #: data/ui/shortcuts-dialog.blp:14
 msgctxt "shortcut window"
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "键盘快捷键"
 
 #: data/ui/shortcuts-dialog.blp:19
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "退出"
 
 #: data/ui/shortcuts-dialog.blp:25
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Recording"
 msgstr "录音"
 
 #: data/ui/shortcuts-dialog.blp:28
-#, fuzzy
-#| msgid "Start recording"
 msgctxt "shortcut window"
 msgid "Start/Stop Recording"
-msgstr "开始录音"
+msgstr "开始/停止录音"
 
 #. TRANSLATORS: A newline-separated list of translators. Don't translate literally.
 #. You can optionally add your name if you want, plus you may add your email address or website.
@@ -132,77 +126,65 @@ msgstr "开始录音"
 #. John Doe https://example.com
 #: src/Application.vala:111
 msgid "translator-credits"
-msgstr ""
+msgstr "Bli-AIk"
 
 #: src/MainWindow.vala:44
-#, fuzzy
-#| msgid "System"
 msgid "S_ystem"
-msgstr "系统"
+msgstr "系统(_S)"
 
 #: src/MainWindow.vala:45
-#, fuzzy
-#| msgid "Light"
 msgid "_Light"
-msgstr "亮"
+msgstr "浅色(_L)"
 
 #: src/MainWindow.vala:46
-#, fuzzy
-#| msgid "Dark"
 msgid "_Dark"
-msgstr "暗"
+msgstr "深色(_D)"
 
 #: src/MainWindow.vala:49
-#, fuzzy
 msgid "_Style"
-msgstr "样式："
+msgstr "样式(_S)"
 
 #: src/MainWindow.vala:50
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "键盘快捷键(_K)"
 
 #. TRANSLATORS: %s will be replaced by the app name
 #: src/MainWindow.vala:54
 #, c-format
 msgid "_About %s"
-msgstr ""
+msgstr "关于 %s(_A)"
 
 #: src/MainWindow.vala:58
 msgid "Main Menu"
-msgstr ""
+msgstr "主菜单"
 
 #: src/MainWindow.vala:144
-#, fuzzy
 msgid "Unable to Continue Recording"
-msgstr "暂停录音"
+msgstr "无法继续录音"
 
 #: src/MainWindow.vala:145
-#, fuzzy
 msgid "There was an internal error while recording"
-msgstr "暂停录音"
+msgstr "录音时发生内部错误。"
 
 #: src/MainWindow.vala:169
-#, fuzzy
 msgid "Recording Saved"
-msgstr "录音"
+msgstr "录音已保存"
 
 #: src/MainWindow.vala:170
 msgid "Open Folder"
-msgstr ""
+msgstr "打开文件夹"
 
 #: src/MainWindow.vala:208 src/MainWindow.vala:264
-#, fuzzy
 msgid "Failed to Save Recording"
-msgstr "暂停录音"
+msgstr "保存录音失败"
 
 #: src/MainWindow.vala:209
 msgid ""
 "Unable to move a temporary recording file to the final path. Make sure the "
 "destination exists and you have write access to it"
-msgstr ""
+msgstr "无法将临时录音文件移至最终路径。请确认目标位置存在，且你拥有写入权限。"
 
 #: src/MainWindow.vala:236
-#, fuzzy
 msgid "Save Recording"
 msgstr "保存录音"
 
@@ -210,104 +192,85 @@ msgstr "保存录音"
 msgid ""
 "Unable to determine where to save recording finally. Try again using "
 "autosave instead"
-msgstr ""
+msgstr "无法确定录音的最终保存位置。请改用自动保存后重试。"
 
 #: src/MainWindow.vala:325
-#, fuzzy
 msgid "Failed to Prepare Recording"
-msgstr "暂停录音"
+msgstr "准备录音失败"
 
 #: src/MainWindow.vala:326
 msgid ""
 "This is possibly due to missing codecs, incomplete installation of the app, "
 "or missing sound input/output devices. Make sure you've installed necessary "
 "components correctlly and connected sound devices"
-msgstr ""
+msgstr "这可能是因为缺少编解码器、应用安装不完整，或缺少声音输入/输出设备。请确认已正确安装所需组件，并已连接音频设备。"
 
 #: src/MainWindow.vala:403
-#, fuzzy
 msgid "Recording Canceled"
-msgstr "录音"
+msgstr "录音已取消"
 
 #: src/MainWindow.vala:408
-#, fuzzy
 msgid "Recording Moved to Trash"
-msgstr "录音"
+msgstr "录音已移至废纸篓"
 
 #: src/MainWindow.vala:431
 msgid "Recording is ongoing"
 msgstr "正在录音"
 
 #: src/MainWindow.vala:492
-#, fuzzy
 msgid "Failed to Open Folder"
-msgstr "暂停录音"
+msgstr "无法打开文件夹"
 
 #: src/MainWindow.vala:493
 #, c-format
 msgid "Unable to open folder containing \"%s\""
-msgstr ""
+msgstr "无法打开包含“%s”的文件夹"
 
 #: src/MainWindow.vala:546
 msgid "_Close"
-msgstr ""
+msgstr "关闭(_C)"
 
 #: src/View/CountDownView.vala:35
-#, fuzzy
-#| msgid "Cancel the countdown"
 msgid "Cancel Countdown"
 msgstr "取消倒计时"
 
 #: src/View/CountDownView.vala:111
-#, fuzzy
-#| msgid "Pause the countdown"
 msgid "Pause Countdown"
 msgstr "暂停倒计时"
 
 #: src/View/CountDownView.vala:116
-#, fuzzy
-#| msgid "Resume the countdown"
 msgid "Resume Countdown"
 msgstr "恢复倒计时"
 
 #: src/View/RecordView.vala:54 src/Widget/SavingDialog.vala:48
-#, fuzzy
-#| msgid "Cancel recording"
 msgid "Cancel Recording"
 msgstr "取消录音"
 
 #: src/View/RecordView.vala:61
-#, fuzzy
-#| msgid "Finish recording"
 msgid "Finish Recording"
-msgstr "完成录音"
+msgstr "结束录音"
 
 #: src/View/RecordView.vala:182
-#, fuzzy
-#| msgid "Resume recording"
 msgid "Resume Recording"
-msgstr "恢复录音"
+msgstr "继续录音"
 
 #: src/View/RecordView.vala:195
-#, fuzzy
-#| msgid "Pause recording"
 msgid "Pause Recording"
 msgstr "暂停录音"
 
 #. TRANSLATORS: This is the label of a button that shows a file dialog to select a folder
 #. where the app saves recodings automatically
 #: src/View/WelcomeView.vala:11
-#, fuzzy
 msgid "Destination…"
-msgstr "选择默认目录"
+msgstr "保存位置…"
 
 #: src/View/WelcomeView.vala:28
 msgid "Source"
-msgstr ""
+msgstr "音源"
 
 #: src/View/WelcomeView.vala:33
 msgid "Record from:"
-msgstr "声音来源："
+msgstr "录音来源："
 
 #: src/View/WelcomeView.vala:39
 msgid "Microphone"
@@ -315,16 +278,15 @@ msgstr "麦克风"
 
 #: src/View/WelcomeView.vala:40
 msgid "System"
-msgstr "系统"
+msgstr "系统声音"
 
 #: src/View/WelcomeView.vala:41
 msgid "Both"
-msgstr "都有"
+msgstr "麦克风和系统声音"
 
 #: src/View/WelcomeView.vala:43
-#, fuzzy
 msgid "Microphone:"
-msgstr "麦克风"
+msgstr "麦克风："
 
 #: src/View/WelcomeView.vala:56
 msgid "Channels:"
@@ -336,19 +298,19 @@ msgstr "单声道"
 
 #: src/View/WelcomeView.vala:63
 msgid "Stereo"
-msgstr "立体"
+msgstr "立体声"
 
 #: src/View/WelcomeView.vala:65
 msgid "Timer"
-msgstr "计时"
+msgstr "定时录音"
 
 #: src/View/WelcomeView.vala:70
 msgid "Delay in seconds:"
-msgstr "延迟秒数："
+msgstr "延迟时间（秒）："
 
 #: src/View/WelcomeView.vala:77
 msgid "Length in seconds:"
-msgstr "持续秒数："
+msgstr "录音时长（秒）："
 
 #: src/View/WelcomeView.vala:88
 msgid "Saving"
@@ -384,43 +346,36 @@ msgstr "WAV"
 
 #: src/View/WelcomeView.vala:107
 msgid "Add metadata:"
-msgstr ""
+msgstr "添加元数据："
 
 #: src/View/WelcomeView.vala:115
 msgid "Add record year and your real name in recording files"
-msgstr ""
+msgstr "在录音文件中添加录制年份和你的真实姓名"
 
 #: src/View/WelcomeView.vala:121
 msgid "Autosave:"
-msgstr ""
+msgstr "自动保存："
 
 #: src/View/WelcomeView.vala:132 src/View/WelcomeView.vala:135
-#, fuzzy
 msgid "Select Autosave Destination"
-msgstr "选择默认目录"
+msgstr "选择自动保存位置"
 
 #: src/View/WelcomeView.vala:180
-#, fuzzy
-#| msgid "Start recording"
 msgid "Start Recording"
 msgstr "开始录音"
 
 #: src/Widget/SavingDialog.vala:35
-#, fuzzy
-#| msgid "Saving"
 msgid "Saving…"
-msgstr "保存"
+msgstr "正在保存…"
 
 #: src/Widget/SavingDialog.vala:41
 msgid "Problems?"
-msgstr ""
+msgstr "遇到问题？"
 
 #: src/Widget/SavingDialog.vala:41
 msgid "Just hang on until the file dialog appears"
-msgstr ""
+msgstr "请稍候，文件选择对话框即将出现"
 
 #: src/Widget/SavingDialog.vala:80
-#, fuzzy
-#| msgid "Cancel recording"
 msgid "Canceling…"
-msgstr "取消录音"
+msgstr "正在取消…"
